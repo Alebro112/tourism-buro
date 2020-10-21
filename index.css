@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
+
+html{
+    font-family: 'BenchNine', sans-serif;
+}
+body{
+    margin: 0;
+    margin-top: -19px;
+    padding: 0;
+}
+
+.wrapper{
+    width: 1400px;
+    height: 1763px;
+    margin: 0 auto;
+}
+
+header{
+    margin-top: 0;
+    width: 1440px;
+    height: 554px;
+    margin-bottom: 0;
+}
+
+.header-bgi{
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    width: 1440px;
+    height: 568px;
+}
+.logo{
+    position: absolute;
+    margin-left: 120px;
+    top: 0px;
+}
+h1{
+    padding-left: 535px;
+    padding-top: 24px;
+    word-spacing: 0.25rem;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+ul, li{
+    display: inline;
+
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    margin-right: 30px;
+    
+}
+
+nav{
+    margin-left: 456px;
+}
+
+main{
+    width: 100%;
+}
+
+.gallary{ 
+    width: 1440px;
+    height: 540px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+.gallary-img{
+    margin-left: 120px;
+    padding-top: 70px;
+}
+.gallary .top-img{
+    width: 389px;
+    height: 192px;
+
+    margin-right: 16px;
+    margin-bottom: 16px;
+    background: url(image.png);
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.25));
+}
+
+.gallary .bottom-img{
+    width: 592px;
+    height: 192px;
+
+    margin-right: 17px;
+    background: url(image.png);
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.25));
+}
+
+.content{
+    height: 570px;
+}
+
+.content-bgi{
+    position: absolute;
+    width: 1441px;
+    height: 570px;
+    z-index: -1;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38)), url(image.png);
+}
+
+article{
+    font-family: 'Bellota Text', cursive;
+}
+
+
+footer{
+    position: fixed;
+    width: 1441px;
+    height: 123px;
+
+    top: 870px;
+    background-color: black;
+}
