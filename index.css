@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 
 html{
     font-family: 'BenchNine', sans-serif;
@@ -12,7 +13,7 @@ body{
 
 .wrapper{
     width: 1400px;
-    height: 1763px;
+    height: 1787px;
     margin: 0 auto;
 }
 
@@ -70,6 +71,88 @@ nav{
     margin-left: 456px;
 }
 
+.search{
+    position: absolute;
+    width: 794px;
+    height: 192px;
+    margin-left: 323px;
+    top: 234px;
+
+    background: rgba(255, 255, 255, 0.54);
+    border-radius: 5px;
+}
+
+.search .content{
+    margin-left: 30px;
+    margin-top: 33px;
+}
+
+input[type="text"], input[type="number"]{
+    background: #FFFFFF;
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    margin-bottom: 38px;
+
+    padding-top: 5px;
+    padding-left: 10px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+
+    align-items: center;
+
+    color: black;
+}
+
+input[type="text"]::placeholder, input[type="number"]::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+
+    align-items: center;
+
+    color: #A3A3A3;
+}
+
+.input{
+    width: 266px;
+    height: 44px; 
+}
+
+.input-sm{
+    width: 131px;
+    height: 44px;
+}
+
+.btn-find{
+    width: 130px;
+    height: 44px;
+
+    margin: 0;
+    padding: 0;
+    background: #E0228D;
+    border: 1px solid #D11C82;
+
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    font-family: 'Aclonica', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+/* MAIN */
 main{
     width: 100%;
 }
@@ -103,11 +186,12 @@ main{
     filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.25));
 }
 
-.content{
-    height: 570px;
+main .content{
+    height: 592px;
+
 }
 
-.content-bgi{
+main .content-bgi{
     position: absolute;
     width: 1441px;
     height: 570px;
@@ -116,16 +200,77 @@ main{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38)), url(image.png);
 }
 
-article{
-    font-family: 'Bellota Text', cursive;
+main  .content .text{
+    margin-left: 104px;
 }
 
+main .content article{
+    font-family: 'Bellota Text', cursive;
+
+    width: 389px;
+    height: 448px;
+
+    margin-left: 16px;
+
+    float: left;
+}
+main .content article h3{
+
+    margin: 0;
+    padding: 0;
+    padding-top: 69px;
+    margin-bottom: 10px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 41px;
+    line-height: 52px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+main .content article p{
+    width: 320px;
+    height: 384px;
+
+    margin: 0;
+    padding: 0;
+    margin-left: 34px;
+
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
 
 footer{
     position: fixed;
     width: 1441px;
     height: 123px;
 
-    top: 870px;
+    bottom: 0; /*870*/
     background-color: black;
+    color: white;
+}
+footer .text{
+    margin-left: 221px;
+}
+footer span{
+    width: 389px;
+    height: 123px;
+    float: left;
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+    padding-top: 31px;
+
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+
+
+    color: #FFFFFF;
 }
