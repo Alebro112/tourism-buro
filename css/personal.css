@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+/* HEADER */
+
+html{
+    font-family: 'BenchNine', sans-serif;
+    font-size: 16px;
+    background-color: #e2e2e2;
+}
+body{
+    margin: 0;
+    margin-top: -19px;
+    padding: 0;
+}
+
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header{
+    margin-top: 0;
+    width: 1440px;
+    height: 198px;
+    margin-bottom: 0;
+}
+
+.header-bgi{
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    width: 1440px;
+    height: 568px;
+}
+.logo{
+    position: absolute;
+    margin-left: 120px;
+    top: 0px;
+}
+h1{
+    padding-left: 535px;
+    padding-top: 24px;
+    word-spacing: 0.25rem;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+ul, li{
+    display: inline;
+
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    margin-right: 30px;
+    
+}
+
+nav{
+    margin-left: 456px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #D0D0D0;
+}
+
+/* MAIN */
+
+
+
+.caption{
+    
+    font-family: 'BenchNine', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 48px;
+
+    text-align: center;
+    padding-top: 34px;
+    margin-bottom: 34px;
+    
+
+
+    color: #D11C82;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+main{
+    background-color: #fff;
+    width: 1440px;
+    height: 500px;
+}
+
+.block{
+    margin-left: 221px;
+}
+
+.block img{
+    float: left;
+    width: 491px;
+}
+.block span{
+    width: 50%;
+    float: left;
+    margin-left: 19px;
+
+}
+
+.name{
+    margin-top: 62px;
+    margin-bottom: 20px;
+    font-family: 'BenchNine';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 0px;
+    /* identical to box height, or 0% */
+    display: flex;
+    align-items: center;
+
+    color: #D11C82;
+}
+
+.position{
+    margin-bottom: 32px;
+
+    font-family: 'BenchNine';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+
+    color: #E0228D;
+}
+
+.number, .email{
+    font-family: 'BenchNine';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+
+    color: #E0228D;
+}

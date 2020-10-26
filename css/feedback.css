@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+/* HEADER */
+
+html{
+    font-family: 'BenchNine', sans-serif;
+    font-size: 16px;
+    background-color: #e2e2e2;
+}
+body{
+    margin: 0;
+    margin-top: -19px;
+    padding: 0;
+}
+
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header{
+    margin-top: 0;
+    width: 1440px;
+    z-index: -2;
+    margin-bottom: 0;
+}
+
+.header-bgi{
+    position: absolute;
+    top: 0;
+    z-index: -3;
+    width: 1440px;
+    height: 846px;
+}
+.logo{
+    position: absolute;
+    margin-left: 120px;
+    top: 0px;
+}
+h1{
+    padding-left: 535px;
+    padding-top: 24px;
+    word-spacing: 0.25rem;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+ul, li{
+    display: inline;
+
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    margin-right: 30px;
+    
+}
+
+nav{
+    margin-left: 456px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #D0D0D0;
+}
+
+/* MAIN */
+
+input[type="text"], input[type="number"], input[type="date"]{
+    background: #FFFFFF;
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    margin: 0;
+    padding: 0;
+
+    padding-top: 5px;
+    padding-left: 10px;
+
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+
+    align-items: center;
+
+    color: black;
+}
+
+input[type="text"]::placeholder, input[type="number"]::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+
+    align-items: center;
+
+    color: #A3A3A3;
+}
+
+.input{
+    width: 288px;
+    height: 52px; 
+}
+
+.input-sm{
+    width: 131px;
+    height: 44px;
+}
+
+form{
+    position: absolute;
+    width: 995px;
+    height: 532px;
+    margin-left: 224px;
+    margin-top: 46px;
+    text-align: center;
+}
+
+.form-border{
+    margin-top: 16px;
+    padding-top: 69px;
+    width: 995px;
+    height: 532px;
+
+    background: rgba(255,255,255,0.75);
+    border: 20px solid rgba(209, 28, 131, 0.897);
+    box-sizing: border-box;
+    border-radius: 40px;
+
+}
+
+.form-caption{
+    font-family: 'BenchNine', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 48px;
+
+
+    color: #D11C82;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+form .content{
+    width: 592px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+form .row{
+    float: left;
+    width: 100%;
+    margin-bottom: 16px;
+}
+form .block{
+    float: left;
+    width: 50%;
+    display: flex;
+   
+    align-items: center;
+
+    height: 52px;
+}
+
+form .block-big{
+    height: 120px;
+}
+
+form .text{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    font-family: 'BenchNine', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+
+    color: #D11C82;
+}
+
+form span{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form textarea{
+    width: 288px;
+    height: 120px;
+
+    padding: 5px 10px;
+
+    background: #FFFFFF;
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    resize: none;
+}
+
+.button{
+    width: 288px;
+    height: 52px;
+
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    font-family: 'Aclonica';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+
+    background: #FFFFFF;
+    border: 1px solid #D11C82;
+    
+    color: #E0228D;
+}
+
+.button:hover{
+    background: #E0228D;
+    border: 1px solid #D11C82;
+
+    color: #FFFFFF;
+}
+
+
+.rating {
+display: flex;
+width: 100%;
+justify-content: center;
+overflow: hidden;
+flex-direction: row-reverse;
+height: 150px;
+position: relative;
+}
+
+.rating-0 {
+filter: grayscale(100%);
+}
+
+.rating > input {
+display: none;
+}
+
+.rating > label {
+cursor: pointer;
+width: 40px;
+background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729' height='126.73'%3e%3cpath fill='%23e3e3e3' d='M121.215 44.212l-34.899-3.3c-2.2-.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101 0l-12.4 30.3c-.8 2.1-2.8 3.5-5 3.7l-34.9 3.3c-5.2.5-7.3 7-3.4 10.5l26.3 23.1c1.7 1.5 2.4 3.7 1.9 5.9l-7.9 32.399c-1.2 5.101 4.3 9.3 8.9 6.601l29.1-17.101c1.9-1.1 4.2-1.1 6.1 0l29.101 17.101c4.6 2.699 10.1-1.4 8.899-6.601l-7.8-32.399c-.5-2.2.2-4.4 1.9-5.9l26.3-23.1c3.8-3.5 1.6-10-3.6-10.5z'/%3e%3c/svg%3e");
+background-repeat: no-repeat;
+background-position: center;
+background-size: 76%;
+transition: .3s;
+}
+
+.rating > input:checked ~ label,
+.rating > input:checked ~ label ~ label {
+background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729' height='126.73'%3e%3cpath fill='%23fcd93a' d='M121.215 44.212l-34.899-3.3c-2.2-.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101 0l-12.4 30.3c-.8 2.1-2.8 3.5-5 3.7l-34.9 3.3c-5.2.5-7.3 7-3.4 10.5l26.3 23.1c1.7 1.5 2.4 3.7 1.9 5.9l-7.9 32.399c-1.2 5.101 4.3 9.3 8.9 6.601l29.1-17.101c1.9-1.1 4.2-1.1 6.1 0l29.101 17.101c4.6 2.699 10.1-1.4 8.899-6.601l-7.8-32.399c-.5-2.2.2-4.4 1.9-5.9l26.3-23.1c3.8-3.5 1.6-10-3.6-10.5z'/%3e%3c/svg%3e");
+}
+
+
+.rating > input:not(:checked) ~ label:hover,
+.rating > input:not(:checked) ~ label:hover ~ label {
+background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729' height='126.73'%3e%3cpath fill='%23d8b11e' d='M121.215 44.212l-34.899-3.3c-2.2-.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101 0l-12.4 30.3c-.8 2.1-2.8 3.5-5 3.7l-34.9 3.3c-5.2.5-7.3 7-3.4 10.5l26.3 23.1c1.7 1.5 2.4 3.7 1.9 5.9l-7.9 32.399c-1.2 5.101 4.3 9.3 8.9 6.601l29.1-17.101c1.9-1.1 4.2-1.1 6.1 0l29.101 17.101c4.6 2.699 10.1-1.4 8.899-6.601l-7.8-32.399c-.5-2.2.2-4.4 1.9-5.9l26.3-23.1c3.8-3.5 1.6-10-3.6-10.5z'/%3e%3c/svg%3e");
+}
+  
+
+
+
+/* FOOTER */
+
+footer{
+    position: fixed;
+    width: 1440px;
+    height: 123px;
+
+    bottom: 0; /*870*/
+    background-color: black;
+    color: white;
+}
+footer .text{
+    margin-left: 221px;
+}
+footer span{
+    width: 389px;
+    height: 123px;
+    float: left;
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+    padding-top: 31px;
+
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+
+
+    color: #FFFFFF;
+}

@@ -2,8 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 
+/* HEADER */
+
 html{
     font-family: 'BenchNine', sans-serif;
+    font-size: 16px;
 }
 body{
     margin: 0;
@@ -71,6 +74,17 @@ nav{
     margin-left: 456px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #D0D0D0;
+}
+
+/* SEARCH */
+
 .search{
     position: absolute;
     width: 794px;
@@ -87,7 +101,7 @@ nav{
     margin-top: 33px;
 }
 
-input[type="text"], input[type="number"]{
+input[type="text"], input[type="number"], input[type="date"]{
     background: #FFFFFF;
     border: 1px solid #D0D0D0;
     box-sizing: border-box;
@@ -153,6 +167,7 @@ input[type="text"]::placeholder, input[type="number"]::placeholder{
 }
 
 /* MAIN */
+
 main{
     width: 100%;
 }
@@ -243,6 +258,8 @@ main .content article p{
 
     color: #FFFFFF;
 }
+
+/* FOOTER */
 
 footer{
     position: fixed;
