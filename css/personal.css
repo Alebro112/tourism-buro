@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 
 /* HEADER */
 
 html{
-    font-family: 'BenchNine', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     background-color: #e2e2e2;
 }
@@ -21,6 +21,7 @@ body{
 }
 
 header{
+    font-family: 'BenchNine', sans-serif;
     margin-top: 0;
     width: 1440px;
     height: 198px;
@@ -89,7 +90,7 @@ a:hover{
 
 .caption{
     
-    font-family: 'BenchNine', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -109,11 +110,19 @@ a:hover{
 main{
     background-color: #fff;
     width: 1440px;
-    height: 500px;
+
+    overflow: hidden;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 5px 5px rgba(0, 0, 0, 0.25);
+
 }
 
 .block{
+    margin-bottom: 82px;
     margin-left: 221px;
+    float: left;
+    width: 100%;
 }
 
 .block img{
@@ -129,11 +138,11 @@ main{
 
 .name{
     margin-top: 62px;
-    margin-bottom: 20px;
-    font-family: 'BenchNine';
+    margin-bottom: 18px;
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 42px;
     line-height: 0px;
     /* identical to box height, or 0% */
     display: flex;
@@ -145,25 +154,64 @@ main{
 .position{
     margin-bottom: 32px;
 
-    font-family: 'BenchNine';
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 32px;
     display: flex;
     align-items: center;
+    letter-spacing: 0.1rem;
+    color: #D11C82;
+}
+
+.number, .email{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01rem;
 
     color: #E0228D;
 }
 
-.number, .email{
-    font-family: 'BenchNine';
+.number{
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+footer{
+    position: fixed;
+    width: 1441px;
+    height: 123px;
+
+    bottom: 0; /*870*/
+    background-color: black;
+    color: white;
+}
+footer .text{
+    margin-left: 221px;
+}
+footer span{
+    width: 389px;
+    height: 123px;
+    float: left;
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+    padding-top: 31px;
+
+    font-family: 'Bellota Text', cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
 
-    color: #E0228D;
+
+    color: #FFFFFF;
 }

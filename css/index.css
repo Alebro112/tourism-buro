@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 
 /* HEADER */
 
 html{
-    font-family: 'BenchNine', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
 }
 body{
@@ -44,6 +46,7 @@ h1{
     padding-top: 24px;
     word-spacing: 0.25rem;
     font-weight: bold;
+    font-family: 'BenchNine', sans-serif;
     font-size: 28px;
     line-height: 37px;
     display: flex;
@@ -56,8 +59,8 @@ h1{
 }
 
 ul, li{
+    font-family: 'BenchNine', sans-serif;
     display: inline;
-
     font-weight: bold;
     font-size: 28px;
     line-height: 37px;

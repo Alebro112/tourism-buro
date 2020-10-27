@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 
 /* HEADER */
 
 html{
-    font-family: 'BenchNine', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     background-color: #e2e2e2;
 }
@@ -21,6 +21,7 @@ body{
 }
 
 header{
+    font-family: 'Rubik', sans-serif;
     margin-top: 0;
     width: 1440px;
     z-index: -2;
@@ -153,7 +154,6 @@ form{
 }
 
 .form-caption{
-    font-family: 'BenchNine', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -198,7 +198,6 @@ form .text{
     text-align: center;
     align-items: center;
 
-    font-family: 'BenchNine', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -240,9 +239,8 @@ form textarea{
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 
-    font-family: 'Aclonica';
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 18px;
     line-height: 20px;
 
