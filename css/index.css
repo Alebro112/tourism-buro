@@ -9,6 +9,7 @@
 html{
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
+    background-color: #e2e2e2;
 }
 body{
     margin: 0;
@@ -25,12 +26,15 @@ body{
 header{
     margin-top: 0;
     width: 100%;
+    height: auto;
     height: 34.625rem; /* 554px */
     margin-bottom: 0;
 }
 
 .header-bgi{
     position: absolute;
+    width: 75.67%;
+    height: 567px;
     top: 0;
     z-index: -2;
 }
@@ -88,19 +92,21 @@ a:hover{
 /* SEARCH */
 
 .search{
-    position: absolute;
-    width: 41.8%; /* 794px */
+    width: 55.1388%; /* 794px */
     height: 12rem;
-    margin-left: 16%; /* 323px */
-    top: 14.625rem;
+    margin-left: auto; /* 323px */
+    margin-right: auto;
+    margin-top: 6.9375rem;
 
     background: rgba(255, 255, 255, 0.54);
     border-radius: 5px;
 }
 
 .search .content{
-    margin-left: 3.77833%; /* 30px */
-    margin-top: 2.0625rem;
+    width: 92.5692%;
+    margin-left: auto; /* 30px */
+    margin-right: auto;
+    padding-top: 2.0625rem;
 }
 
 input[type="text"], input[type="number"], input[type="date"]{
@@ -131,8 +137,8 @@ input[type="text"], input[type="number"], input[type="date"]{
 input[type="text"]::placeholder, input[type="number"]::placeholder{
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
 
     align-items: center;
 
@@ -145,12 +151,12 @@ input[type="text"]::placeholder, input[type="number"]::placeholder{
 }
 
 .input-sm{
-    width: 16.4987%; /* 131px */
+    width: 20%; /* 131px */
     height: 2.75rem;
 }
 
 .btn-find{
-    width: 16.4987%; /* 131px */
+    width: 20%; /* 131px */
     height: 2.75rem;
 
     margin: 0;
@@ -164,7 +170,7 @@ input[type="text"]::placeholder, input[type="number"]::placeholder{
     font-family: 'Aclonica', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #FFFFFF;
 }
 
@@ -176,58 +182,59 @@ main{
 
 .gallary{ 
     width: 100%;
-    height: 540px;
+    height: auto;
     background: #FFFFFF;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
 }
 .gallary-img{
-    margin-left: 120px;
-    padding-top: 70px;
+    margin-left: 8.333333%; /* 120 */ 
+    padding-top: 70px; 
+    padding-bottom: 70px;
 }
 .gallary .top-img{
-    width: 389px;
-    height: 192px;
+    width: 29.4696%; /* 389 */
+    height: auto;
 
-    margin-right: 16px;
-    margin-bottom: 16px;
+    margin-right: 1.2121%;
+    margin-bottom: 1.2121%;
     background: url(image.png);
     filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.25));
 }
 
 .gallary .bottom-img{
-    width: 592px;
-    height: 192px;
+    width: 44.8484%; /* 592 */
+    height: auto;
 
-    margin-right: 17px;
+    margin-right: 1.2878%; /* 17 */
     background: url(image.png);
     filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.25));
 }
 
 main .content{
-    height: 592px;
+    height: auto;
 
 }
 
 main .content-bgi{
     position: absolute;
-    width: 1441px;
-    height: 570px;
+    width: 75.67%;
+    height: 569px;
     z-index: -1;
 
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38)), url(image.png);
 }
 
 main  .content .text{
-    margin-left: 104px;
+    margin-left: 7.2272%;
 }
 
 main .content article{
     font-family: 'Bellota Text', cursive;
 
-    width: 389px;
-    height: 448px;
+    width: 29.1385%; /*/ 389 */
+    height: auto;
 
-    margin-left: 16px;
+    margin-left: 1.1985%; /* 16px */
 
     float: left;
 }
@@ -247,12 +254,12 @@ main .content article h3{
     color: #FFFFFF;
 }
 main .content article p{
-    width: 320px;
-    height: 384px;
+    width: 82.2622%;
+    height: auto;
 
     margin: 0;
     padding: 0;
-    margin-left: 34px;
+    margin-left: 8.7403%; /* 34 */
 
     font-weight: normal;
     font-size: 24px;
@@ -265,7 +272,7 @@ main .content article p{
 
 footer{
     position: fixed;
-    width: 1441px;
+    width: 75.67%;
     height: 123px;
 
     bottom: 0; /*870*/
@@ -273,10 +280,10 @@ footer{
     color: white;
 }
 footer .text{
-    margin-left: 221px;
+    margin-left: 15.3578%; /* 221*/
 }
 footer span{
-    width: 389px;
+    width: 31.9376%;
     height: 123px;
     float: left;
     display: flex;
@@ -288,8 +295,81 @@ footer span{
     font-family: 'Bellota Text', cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 1.5rem;
 
 
     color: #FFFFFF;
+}
+
+
+@media(min-width: 1820px) and (max-width: 1911px){
+    main .content article p{
+        font-size: 20px;
+    }
+    main .content article h3{
+        font-style: 34px;
+    }
+    main .content-bgi{
+        height: 65%;
+    }
+    footer span{
+        font-size: 1.25rem;
+    }
+}
+
+@media(min-width: 1592px) and (max-width: 1819px){
+    main .content article p{
+        font-size: 19px;
+    }
+    main .content article h3{
+        font-style: 30px;
+    }
+ 
+    main .content-bgi{
+        height: 65%;
+    }
+
+    ul, li, h1{
+        font-size: 25px;
+    }
+
+    footer span{
+        font-size: 1.3rem;
+    }
+}
+
+@media(min-width: 1400px) and (max-width: 1592px){
+    main .content article p{
+        font-size: 19px;
+    }
+    main .content article h3{
+        font-style: 30px;
+    }
+    ul, li, h1{
+        font-size: 24px;
+    }
+    main .content-bgi{
+        height: 70%;
+    }
+    footer span{
+        font-size: 1.25rem;
+    }
+}
+
+@media(min-width: 1270px) and (max-width: 1399px){
+    main .content article p{
+        font-size: 17px;
+    }
+    main .content article h3{
+        font-style: 30px;
+    }
+    ul, li, h1{
+        font-size: 21px;
+    }
+    main .content-bgi{
+        height: 72%;
+    }
+    footer span{
+        font-size: 1.125rem;
+    }
 }
