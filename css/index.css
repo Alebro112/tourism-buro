@@ -535,6 +535,12 @@ footer span{
     main .content{
         height: 1250px;
     }
+    main .content .text{
+        text-align: justify;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
     input[type="text"], input[type="number"], input[type="date"]{
         margin-bottom: 1.5rem;
         font-size: 16px;
@@ -544,6 +550,7 @@ footer span{
     }
     footer{
         height: 100px;
+        width: 100%;
     }
     footer .text{
         margin-left: 5%;
@@ -551,8 +558,37 @@ footer span{
     footer span{
         font-size: 16px;
     }
-}
 
+}
+@media(max-width: 650px){
+    .gallary-img{
+        margin-right: 8.333333%;
+    }
+    .gallary .top-img, .gallary .bottom-img{
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    nav{
+        width: 90%;
+        height: auto;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    ul{
+       display: inline; 
+        margin: 0;
+        padding: 0;  
+    }
+    li{
+        float: left;
+        text-align: center;
+        margin: 0;
+        width: 50%;
+        font-size: 1.5rem;
+    }
+}
 @media(min-width: 718px) and (max-width: 868px){
     html{
         overflow-x: hidden;
@@ -598,7 +634,7 @@ footer span{
 
 }
 
-@media(min-width: 0px) and (max-width: 717px){
+@media(min-width: 650px) and (max-width: 717px){
     html{
         overflow-x: hidden;
     }
@@ -644,3 +680,21 @@ footer span{
     }
 
 }
+
+
+@media(min-width: 563px) and (max-width: 649px){
+    main .content{
+        height: 1350px;
+    }
+    main .content .text{
+        text-align: justify;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(min-width: 0px) and (max-width: 562px){
+    main .content{
+        height: 1450px;   
+    }
